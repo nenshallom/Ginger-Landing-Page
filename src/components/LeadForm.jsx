@@ -87,12 +87,12 @@ const LeadForm = () => {
   return (
     <section id="form-section" className="py-24 px-6">
       <div className="max-w-xl mx-auto">
-        <div className="bg-white rounded-[2.5rem] shadow-2xl overflow-hidden border border-slate-100">
+        <div className="bg-white rounded-2xl shadow-2xl overflow-hidden border border-slate-100">
           <div className="bg-slate-900 py-10 px-8 text-center">
-            <h3 className="text-3xl font-bold mb-2">Claim Your Copy</h3>
-            <p className="text-slate-400">Join 1,200+ farmers growing better ginger.</p>
+            <h3 className="text-2xl font-bold mb-2">Claim Your Copy</h3>
+            <p className="text-slate-400">Join 100+ farmers growing better ginger.</p>
           </div>
-          <form onSubmit={handleSubmit} className="p-10 space-y-6 text-">
+          <form onSubmit={handleSubmit} className="px-2 py-4 md:p-10 space-y-6 text-">
             <input 
               required type="text" placeholder="Full Name" 
               className="w-full px-6 py-4 rounded-2xl bg-green-100 text-black border border-green-500 outline-none focus:ring-2 focus:ring-green-600"
@@ -110,7 +110,7 @@ const LeadForm = () => {
             />
             <button 
               disabled={status === 'submitting'}
-              className="w-full py-5 bg-green-700 text-white font-black text-lg rounded-2xl hover:bg-green-800 transition-all"
+              className="w-full py-5 bg-green-700 text-white font-black text-sm rounded-2xl hover:bg-green-800 transition-all"
             >
               {status === 'submitting' ? 'SAVING...' : 'SEND ME THE HANDBOOK →'}
             </button>

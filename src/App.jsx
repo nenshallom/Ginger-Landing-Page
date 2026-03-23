@@ -13,7 +13,8 @@ function App() {
       <LeadForm />
       
       <footer className="py-12  border-t border-slate-200 text-center">
-        <p className="text-green-500 font-medium">© {new Date().getFullYear()} A Product of GGN. Empowering Farmers Worldwide.</p>
+        <p className="text-white text-sm font-medium">© {new Date().getFullYear()} A Product of GGN. Empowering Farmers Worldwide.</p>
+        <a href='https://nenshallom.netlify.app/' className='text-xs pt-5 cursor-pointer text-blue-900'>Built by NSG</a>
       </footer>
     </div>
   );

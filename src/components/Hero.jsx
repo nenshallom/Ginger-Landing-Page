@@ -18,7 +18,7 @@ const Hero = () => {
             Turn Your Soil Into <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-yellow-700">Green Gold.</span>
           </h1>
           
-          <p className="text-xl text-green-500 font-bold mb-8 leading-relaxed">
+          <p className="text-xl text-white font-bold mb-8 leading-relaxed">
             Stop guessing and start growing. Get the exact blueprint used by top organic farmers to produce 2x more ginger per hectare.
           </p>
 
