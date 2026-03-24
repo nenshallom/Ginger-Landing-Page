@@ -47,7 +47,7 @@ const LeadForm = () => {
 
   if (status === 'success') {
     // Add '?download=1' or similar if your storage setup supports forced download via URL
-    const pdfUrl = "https://jkiapkmsrkiopkjmzxtx.supabase.co/storage/v1/object/public/Ginger%20farming%20material/Nendang_Shallom_Goshit_Frontend_Developer.pdf";
+    const pdfUrl = "https://jkiapkmsrkiopkjmzxtx.supabase.co/storage/v1/object/public/Ginger%20farming%20material/Nendang_Shallom_Goshit_Frontend_Developer.pdf?download=";
     const whatsappGroupLink = "https://chat.whatsapp.com/DbbYuLoT8DB182Dka2aMtR?mode=gi_t"; 
     const firstName = formData.name.split(' ')[0];
 
