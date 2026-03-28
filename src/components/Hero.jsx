@@ -36,7 +36,7 @@ const Hero = () => {
           <div className="relative max-w-[400px] w-full shadow-[0_50px_100px_-20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden border-8 border-white transform transition-transform duration-500 hover:scale-[1.02]">
             {/* Replace the src below with your actual book cover image path later */}
             <img 
-              src="/cover.png" 
+              src="/cover.jpg" 
               alt="Ginger Farming Handbook Cover"
               className="w-full h-auto object-cover"
             />
